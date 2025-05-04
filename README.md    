@@ -1,0 +1,26 @@
+->Setup Instructions
+1. Clone/Create Project
+bash# Clone or create a new project folder
+mkdir my_project
+cd my_project
+
+2. Set Up Virtual Environment
+bash# Create virtual environment
+python -m venv .venv
+# Activate virtual environment
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+3. Install Dependencies
+bash# Install required packages
+pip install -r requirements.txt
+
+4.Running Jupyter Notebooks in VS Code
+
+Open or create a .ipynb/.py file
+Select kernel: .venv (Python Recommended) in the top-right corner
+Run notebook cells with the play button or Shift+Enter
+
+To run the Streamlit app, execute: streamlit run tennis_analytics_app.py
