@@ -24,3 +24,5 @@ Select kernel: .venv (Python Recommended) in the top-right corner
 Run notebook cells with the play button or Shift+Enter
 
 To run the Streamlit app, execute: streamlit run tennis_analytics_app.py
+
+To run DB File: Use- >sqlite3 'DB file location'
